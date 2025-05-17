@@ -1,0 +1,63 @@
+bootrstap instructions and introducation
+
+//introduction bootrstap
+
+1 the bootrstap is a front end frame work in the create the html page using the frame works the contains
+in the structure of the file concept is the responsive usage in the frameworks in the bootrstap version 5
+
+//bootrstap reboot 
+
+the bootrstap reboot in the responsive in the for normalize concept in the file concept normalize to letter and margin and padding auto maticaly change the concept and view in the file
+
+//media and view ports upload
+
+continer,container sm,container md, container lg, container xl, container fluid
+extra small = <576px small mobiles
+small = < above 576px mobiles
+medium = >above 768px tablets and small laptops displays
+large = > above 992px monitor and laptops 
+extra large = >above 1200px example tv and etc
+
+//container 
+
+continers is a concept of the webpages responsive
+
+container class using the html pages
+
+//grid layout
+
+concept appears in 12 columns in bootrstap grid layout
+
+//typography
+
+class in heading view in bootrstap responsive
+
+class in displays view in bootrstap
+
+class lead
+
+class text-muted
+
+class list-unstyled
+
+class list-inline-items
+
+class blackquate and footer quote
+
+//bootstrap colors
+
+class bg-primary and text-primary
+
+class bg-secondary and text-secondary
+
+class bg-success and text-success
+
+class bg-danger and text-danger
+
+class bg-warning and text-warning
+
+class bg-info and text-info
+
+class bg-light and text-light
+
+class bg-dark and text-dark

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New otp generator</title>
+    <!--external css stylesheet added-->
+    <link rel="stylesheet" href="style.css">
+    <!--bootstrap css added link-->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--otp container-->
+    <div class="otp-generator" id="otp-generator">
+        <h1>OTP Generator</h1>
+        <!--otp generator-->
+        <button class="btn btn-success button" id="generate-otp" onclick="generateOTP()">Generate OTP</button>
+       
+    </div>
+
+    <!--answer otp generator-->
+
+    <div class="answer">
+         <p id="otp-display"></p>
+    </div>
+
+    <!--checking page container-->
+
+    <div class="checking-container" id="checking">
+        <form>
+            <label for="otp-checking" class="form-label text-success">
+                Please Enter Valid Otp
+            </label>
+            <input type="text" id="otp-checking" placeholder="Enter OTP" required><br><br>
+            <button type="submit" class="btn btn-success button" id="check-otp" onclick="checking()" >Check OTP</button>
+            <br>
+            <p id="otp-checking-result"></p>    
+        <h5 id="timer"><span id="time">15</span>second</h5>
+        </form>
+        
+    </div><br>
+    
+</body>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</html>
