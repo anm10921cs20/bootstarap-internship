@@ -51,4 +51,7 @@ function checking() {
 }
 
 
-   
+    setTimeout(function() 
+    {
+        window.location.reload();
+    },17000);
