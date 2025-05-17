@@ -23,7 +23,7 @@ function generateOTP() {
                 time.innerText = counter;
             }
 
-        }, 900)
+        }, 1000)
     }
     countdown();
     
@@ -44,13 +44,10 @@ function checking() {
     }
     else {
         result.innerHTML = "otp is incorrect";
-        result.style.color = "red";
-        return false;   
+        result.style.color = "red";  
         
     }
 }
-
-
     setTimeout(function() 
     {
         window.location.reload();
